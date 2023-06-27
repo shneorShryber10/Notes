@@ -179,7 +179,7 @@ function SortByColor(){
           }
 
         {
-            showFirstHeader && notes?.length == 0  ?
+             showFirstHeader && (notes?.length == 0 || !(notes))  ?  ?
 
           <div class="rocket-title">
     
