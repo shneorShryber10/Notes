@@ -1,0 +1,95 @@
+.container {
+  height: 90%;
+  width: 100%;
+}
+.container .header-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .add-note {
+  width: 35%;
+  background: green;
+  border-radius: 3px;
+}
+.container .add-note .main-header-add {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5%; /* Use relative unit instead of fixed pixel value */
+  justify-content: space-evenly;
+}
+.container .add-note .main-header-add .add-text {
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  color: "#333333";
+  font-size: 23px;
+  font-weight: "bold";
+}
+.container .Text-formatting {
+  margin-left: 3%; /* Use relative unit instead of fixed pixel value */
+}
+.container .Text-formatting .choose-font {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+}
+.container .Text-formatting .choose-font input {
+  margin-left: 3%; /* Use relative unit instead of fixed pixel value */
+}
+.container .Text-formatting .choose-textFormat-color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+}
+.container .Text-formatting .choose-textFormat-color #textFormat {
+  margin-left: 2%;
+}
+.container .Text-formatting .underline {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .Text-formatting .underline .box-underline:hover {
+  background-color: rgba(128, 128, 128, 0.5);
+  cursor: pointer;
+  border-radius: 7px;
+}
+.container .Text-formatting .imoji {
+  width: 100%;
+  margin-left: 30px;
+}
+.container .Text-formatting .to-add-button {
+  width: 300px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1250px) {
+  .container .add-note {
+    margin-top: 30px;
+  }
+  .container .selected-color {
+    display: none;
+  }
+  .container .add-body {
+    height: 100%;
+    flex-direction: column-reverse;
+  }
+  .container .Text-formatting {
+    margin-top: 300px;
+  }
+}
+@media (max-width: 769px) {
+  .container .Text-formatting {
+    margin-left: 0; /* Remove left margin on smaller screens */
+  }
+}/*# sourceMappingURL=AddedNote.css.map */

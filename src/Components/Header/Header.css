@@ -1,0 +1,16 @@
+.header {
+  position: relative;
+  display: flex;
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+}
+.header .header-text {
+  font-family: "snell_roundhandbold_script";
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  font-style: italic;
+  text-shadow: 3px 4px 2px rgb(0, 0, 0);
+  letter-spacing: 5px;
+}/*# sourceMappingURL=Header.css.map */

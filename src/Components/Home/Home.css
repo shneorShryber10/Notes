@@ -1,0 +1,106 @@
+.home {
+  position: relative;
+  display: flex;
+  height: calc(100% - 0px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+  top: 10;
+  left: 0;
+}
+.home .all-About {
+  position: absolute;
+  top: 70px;
+  left: 240px;
+}
+.home .rocket-title {
+  position: absolute;
+  top: 70px;
+  left: 300px;
+}
+.home .rocket-title .text-titel {
+  color: rgb(135, 206, 250);
+  font-size: 30px;
+}
+.home .left-menu {
+  height: 60vh;
+  width: 20vw;
+}
+.home .left-menu .text-manu-header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.home .left-menu .text-manu-header .search {
+  margin-left: 20px;
+}
+.home .left-menu .triangle {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-top-right-radius: 50%;
+  cursor: pointer;
+}
+.home .left-menu .shape {
+  cursor: pointer;
+}
+.home .folder-list {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 20px;
+}
+.home .folder-list .folder-item {
+  position: relative;
+}
+.home .folder-list .folder-item .yellow-folder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.home .folder-list .folder-item .yellow-folder img {
+  display: block;
+}
+.home .folder-list .folder-item .yellow-folder img:hover {
+  filter: brightness(100%) saturate(100%) hue-rotate(0deg) sepia(100%) invert(10%);
+}
+.home .mid-page {
+  width: 70vw;
+  height: 10vh;
+}
+.home .mid-page .display-note {
+  height: 40vh;
+}
+.home .mid-page .all-notes-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4%;
+}
+.home .mid-page .all-notes-display .the-notes {
+  transition: height 1.5s;
+}
+.home .mid-page .all-notes-display .the-notes .black-note {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.25);
+  height: 0px;
+  width: 190px;
+  z-index: 1;
+  transition: height 1.5s;
+}
+.home .mid-page .all-notes-display .the-notes:hover .black-note {
+  display: block;
+  height: 198px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (max-width: 1250px) {
+  .home .all-notes-display {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}/*# sourceMappingURL=Home.css.map */

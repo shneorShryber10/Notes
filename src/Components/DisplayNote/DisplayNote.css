@@ -1,0 +1,78 @@
+.container {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.container .displayNote {
+  height: 110%;
+  width: 35%;
+  margin-left: 200px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+.container .displayNote .body-of-note .display-note-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.container .displayNote .body-of-note .display-note-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.edit-container {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.edit-container .edit-displayNote {
+  height: 100%;
+  width: 35%;
+  margin-left: 200px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+.edit-container .edit-displayNote .edit-body-of-note .edit-display-note-img {
+  display: flex;
+  justify-content: center;
+}
+.edit-container .edit-displayNote .edit-body-of-note .placeholder-text {
+  color: red;
+  font-style: italic;
+}
+.edit-container .edit-displayNote .edit-body-of-note .edit-box-underline:hover {
+  background-color: #888;
+  border-radius: 3px;
+}
+.edit-container .edit-displayNote .button-to-update {
+  width: "100%";
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edit-container .edit-displayNote .button-to-update .button {
+  height: 30px;
+  width: 130px;
+  border-radius: 5px;
+  background: rgba(204, 204, 204, 0.8);
+  color: #111;
+  font-weight: 700;
+  cursor: pointer;
+}
+.edit-container .edit-displayNote .button-to-update .button:hover {
+  background: #888;
+}/*# sourceMappingURL=DisplayNote.css.map */
